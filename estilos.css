@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e6f7ff;
-  color: #005c99;
+  background-color: #cce6f6; /* celeste suave oscuro */
+  color: #003d66; /* azul oscuro para texto */
   text-align: center;
 }
 
@@ -12,7 +12,7 @@ h1 {
 button {
   margin-top: 10px;
   padding: 8px 16px;
-  background-color: #3399ff;
+  background-color: #007acc; /* azul celeste oscuro */
   color: white;
   border: none;
   border-radius: 8px;
@@ -21,7 +21,7 @@ button {
 }
 
 button:hover {
-  background-color: #267acc;
+  background-color: #005b99;
 }
 
 #porcentajeAvance {
@@ -38,7 +38,7 @@ button:hover {
 }
 
 .anio {
-  background-color: #f0faff;
+  background-color: #e0f0fa; /* fondo intermedio */
   padding: 15px;
   border-radius: 10px;
   width: 220px;
@@ -46,6 +46,7 @@ button:hover {
 
 .anio h2 {
   margin-bottom: 10px;
+  color: #004466;
 }
 
 .cuatri {
@@ -53,29 +54,29 @@ button:hover {
 }
 
 .materia {
-  border: 2px dashed #99d6ff;
+  border: 2px dashed #0077b3; /* borde más intenso */
   border-radius: 10px;
   margin: 6px auto;
   padding: 8px;
-  background-color: #ffffff;
+  background-color: #f8fbfe;
   cursor: pointer;
   font-size: 14px;
 }
 
 .materia.aprobada {
-  background-color: #66ccff;
+  background-color: #3399cc; /* celeste más oscuro */
   color: white;
   border: none;
 }
 
 .materia.habilitada {
-  background-color: #f0faff;
-  border: 2px solid #3399ff;
+  background-color: #e6f4fb;
+  border: 2px solid #007acc;
 }
 
 .materia.bloqueada {
-  background-color: #f3f3f3;
-  color: #aaa;
+  background-color: #d9e6ef;
+  color: #7a8c99;
   cursor: not-allowed;
   opacity: 0.6;
 }
@@ -83,5 +84,5 @@ button:hover {
 .cuatri h3 {
   margin: 10px 0 5px;
   font-weight: bold;
-  color: #0073b3;
+  color: #006699;
 }
