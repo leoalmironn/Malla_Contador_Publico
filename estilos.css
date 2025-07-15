@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0;
+  color: #b30059;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff66aa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #e05595;
+}
+
+#porcentajeAvance {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.malla {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.anio {
+  background-color: #fff0f5;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.anio h2 {
+  margin-bottom: 10px;
+}
+
+.cuatri {
+  margin-bottom: 10px;
+}
+
+.materia {
+  border: 2px dashed #e09ec2;
+  border-radius: 10px;
+  margin: 6px auto;
+  padding: 8px;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.materia.aprobada {
+  background-color: #ff6699;
+  color: white;
+  border: none;
+}
+
+.materia.habilitada {
+  background-color: #ffffff;
+  border: 2px solid #ff66aa;
+}
+
+.materia.bloqueada {
+  background-color: #f3f3f3;
+  color: #bbb;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.cuatri h3 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #c7005c;
+}
